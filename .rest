@@ -1,0 +1,22 @@
+POST http://localhost:5000/login
+Content-Type: application/json     
+
+{
+"username": "val",
+"password": "pass"
+
+}
+
+###
+POST http://localhost:5000/register
+Content-Type: application/json      
+
+{
+    "username": "val",
+    "password": "pass"
+}
+
+
+####
+GET  http://localhost:5000/currentUser
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmViNzZlMzA3Njc1OWJlNjk1NDRhM2YiLCJpYXQiOjE3MjY3MDgwNTAsImV4cCI6MTcyNjcxMTY1MH0.ZCkXjf20BgpBgpchuBHcw3AsedSvOf6PFiadmqBXSj0
