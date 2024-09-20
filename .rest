@@ -1,4 +1,4 @@
-POST http://localhost:5000/login
+POST https://chat-app-server-7jxh.onrender.com/login
 Content-Type: application/json     
 
 {
@@ -8,7 +8,7 @@ Content-Type: application/json
 }
 
 ###
-POST http://localhost:5000/register
+POST https://chat-app-server-7jxh.onrender.com/register
 Content-Type: application/json      
 
 {
